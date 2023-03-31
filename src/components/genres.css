@@ -1,0 +1,236 @@
+.hover-img {
+    background-color: rgb(135, 0, 0);
+    color: #fff;
+    display: inline-block;
+    margin: 8px;
+    max-width: 88%;
+    min-height: 280px;
+    max-height: 280px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: #000;
+    border: #000 solid 1px;
+    border-radius: 8px;
+  }
+  
+  .hover-img * {
+    box-sizing: border-box;
+    transition: all 0.35s ease;
+  }
+  
+  .hover-img::before,
+  .hover-img::after {
+    background-color: rgba(0, 0, 0, 0.5);
+   /* border-top: 32px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 42px solid rgba(0, 0, 0, 0.5);*/
+    border-top: 32px solid black;
+    border-bottom: 78px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.5s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+  }
+  
+  .hover-img img {
+    max-width: 100%;
+    backface-visibility: hidden;
+    min-height: 200px;
+    max-height: 200px;
+  }
+
+  .hover-img:hover {
+    background-color: transparent;
+    box-shadow: 1em;
+  }
+  
+  .hover-img figcaption {
+    position: absolute;
+    top: 75%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 3.1em;
+    opacity: 1;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .hover-img:hover::before,
+  .hover-img:hover::after {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .hover-img:hover > img {
+    opacity: 0.7;
+  }
+  
+  .hover-img:hover figcaption {
+    top: 0;
+  }
+
+  .hover-img a:visited {
+    color: white;
+    text-transform: bold;
+  }
+
+  .hover-img a:link {
+    color: white;
+    text-transform: bold;
+  }
+
+
+
+
+  .features {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-around;
+  }
+  
+  .feature-container {
+    flex-basis: 30%;
+    margin-top: 10px;
+  }
+  
+  .feature-container p {
+    color: #000;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  
+  .feature-container img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  @media only screen and (max-width: 720px) { 
+    .features {
+      flex-direction: column;
+      padding: 50px;
+    }
+    
+    /* MOBILE HEADINGS */
+    
+    h1 {
+      font-size: 1.9rem;
+    }
+    
+    h2 {
+      font-size: 1rem;
+    }
+    
+    p {
+      font-size: 0.8rem;
+    }
+    
+    /* SECTIONS */
+      
+    .feature-container p {
+      margin-bottom: 25px;
+    }
+    
+    .feature-container {
+      margin-top: 20px;
+    }
+    
+    .feature-container:nth-child(2) {
+      order: -1;
+    }
+    
+  }
+
+  .topic {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    /*background-color: rgb(22, 22, 22);*/
+    background-color: rgb(22, 22, 22);
+  }
+
+  .topic p{
+    margin-left: 2%;
+    font-size: 5em;
+    font-weight: 200;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .topic p:hover{
+    color: rgb(250, 3, 3);
+    transition: all 0.3s ease;
+  }
+
+  .griddera {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgb(22, 22, 22);
+  }
+
+  @media screen and (max-width: 850px) { /* adjust the min-width value */
+    .griddera {
+      grid-template-columns: 50% 50%;
+    }
+  }
+
+  .abc{
+    background-color: rgb(22, 22, 22);
+  }
+
+  .alli{
+    background-color: rgb(22, 22, 22);
+  }
+
+  .bac{
+    background-color: rgb(70, 0, 0);
+  }
+
+  .bac .card-name{
+    color: rgb(255, 170, 0);
+  }
+
+  .footerfull{
+    background-color: rgb(70, 0, 0);
+    height: 200px;
+  }
+
+  .social-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .extraspace{
+    background-color: rgb(22, 22, 22);
+    height: 20px;
+  }
+
+  .xx {
+    margin-left: 12px;
+  }
