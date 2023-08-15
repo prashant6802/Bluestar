@@ -13,7 +13,7 @@ function Navbar() {
               src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png"
               alt="Company Logo"
             />
-            <ul className="nav no-search">
+            <ul className="nav no-search itemsnav">
               <li className="nav-item">
                 <a href="/#home">Home</a>
               </li>

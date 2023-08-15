@@ -71,10 +71,11 @@ h2 {
 
 .navbar ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
+  display: flex;
+  justify-content: space-between;
   justify-self: end;
-  
+  width: 30vw;
+  margin-right: 3vw;
 }
 
 .nav-item a {
@@ -175,14 +176,46 @@ h2 {
 }
 
 
-@media only screen and (max-width: 620px) { 
+@media (max-width: 680px) { 
   
-  nav ul{
-    margin-left: 28%;
+  .navbar ul {
+    width: 50vw;
+    margin-right: 3vw;
   }
 
-  nav ul li{
+}
+
+@media (max-width: 440px) { 
+  
+  .navbar ul {
+    width: 70vw;
+    margin-right: 3vw;
+  }
+
+  .navbar img{
+    height: 8px;
+    width: auto;
+    justify-self: start;
     margin-left: 10px;
+  }
+
+}
+
+@media (max-width: 320px) { 
+  
+  .navbar ul {
+    width: 100vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+  }
+
+  .navbar img{
+    height: 8px;
+    width: auto;
+    justify-self: start;
+    margin-left: 10px;
+    display: none;
+    width: 0vw;
   }
 
 }
