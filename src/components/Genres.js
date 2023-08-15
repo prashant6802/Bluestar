@@ -12,7 +12,7 @@ function Genres() {
     <section className="extraspace" id="genre">
         </section>
       <section>
-        <div className="topic" height="150px">
+        <div className="topic">
           <p>GENRES</p>
         </div>
         <div></div>

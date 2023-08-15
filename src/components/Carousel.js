@@ -14,21 +14,20 @@ function Carousel() {
   </div>
   <div className="carousel-inner" id="home">
     <div className="carousel-item active akka">
-      <div className="showimg"><img src={require("./images/spiderman.jpg")} className="d-block w-100" alt="..." height="690vh"/></div>
+      <div className="showimg"><img src={require("./images/spiderman.jpg")} className="d-block w-100" alt="..." height="380vh"/></div>
       <div className="carousel-caption d-none d-md-block">
-        <h1 className="showmess">BLUESTAR INTERACTIVE</h1>
         <p className="showmess">Image Source: Spiderman</p>
       </div>
     </div>
     <div className="carousel-item akka">
-    <div className="showimg"><img src={require("./images/valoranta.jpg")} className="d-block w-100" alt="..." height="690vh"/></div>
+    <div className="showimg"><img src={require("./images/valoranta.jpg")} className="d-block w-100" alt="..." height="380vh"/></div>
       <div className="carousel-caption d-none d-md-block">
         <h1 className="showmess">BLUESTAR INTERACTIVE</h1>
         <p className="showmess">Image Source: Valorant</p>
       </div>
     </div>
     <div className="carousel-item akka">
-    <div className="showimg"><img src={require("./images/pubg3.jpg")} className="d-block w-100" alt="..." height="690vh"/></div>
+    <div className="showimg"><img src={require("./images/pubg3.jpg")} className="d-block w-100" alt="..." height="380vh"/></div>
       <div className="carousel-caption d-none d-md-block">
         <h1 className="showmess">BLUESTAR INTERACTIVE</h1>
         <p className="showmess">Image Source: PUBG</p>

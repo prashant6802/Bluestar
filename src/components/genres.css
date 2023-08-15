@@ -143,10 +143,6 @@
       font-size: 1rem;
     }
     
-    p {
-      font-size: 0.8rem;
-    }
-    
     /* SECTIONS */
       
     .feature-container p {
@@ -164,16 +160,16 @@
   }
 
   .topic {
-    width: 100%;
+    width: auto;
     display: flex;
-    text-align: left;
-    /*background-color: rgb(22, 22, 22);*/
+    justify-content: center;
+    text-align: center;
+    font-size: 6vw;
     background-color: rgb(22, 22, 22);
   }
 
   .topic p{
     margin-left: 2%;
-    font-size: 5em;
     font-weight: 200;
     color: whitesmoke;
     cursor: pointer;
@@ -228,7 +224,6 @@
 
   .extraspace{
     background-color: rgb(22, 22, 22);
-    height: 20px;
   }
 
   .xx {

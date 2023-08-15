@@ -23,12 +23,12 @@ function Navbar() {
               <li className="nav-item">
                 <a href="/#publisher">Publishers</a>
               </li>
-              <li className="nav-item xx">
+              <li className="nav-item">
                 <a href="/#contact">Contact</a>
               </li>
             </ul>
           </nav>
-        </div>
+    </div>
     </>
   )
 }

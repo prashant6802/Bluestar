@@ -9,7 +9,7 @@ function Publishers() {
       <section className="extraspace" id="publisher">
         </section>
       <section>
-        <div className="topic" height="150px">
+        <div className="topic">
           <p>PUBLISHERS</p>
         </div>
       </section>
